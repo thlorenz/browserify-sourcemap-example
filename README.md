@@ -2,6 +2,28 @@
 
 Shows how browserify source mapping urls work (via separate browserify fork).
 
+## Give it a try
+
+    git clone git://github.com/thlorenz/browserify-sourcemap-example.git && cd browserify-sourcemap-example
+    npm install
+    node app
+
+## What you get
+
+### Stacktraces in console output
+
+![console](https://raw.github.com/thlorenz/browserify-sourcemap-example/master/assets/devtools-console.png)
+
+### Separate sources
+
+- original files in sources
+- break points referring to original files
+- stack traces referring to locations in original files
+
+
+![sources](https://raw.github.com/thlorenz/browserify-sourcemap-example/master/assets/devtools-sources.png)
+
+## Few simple steps I took to build this
 
 1. Install dependencies:
   
