@@ -23,6 +23,11 @@ Shows how browserify source mapping urls work (via separate browserify fork).
 
 ![sources](https://raw.github.com/thlorenz/browserify-sourcemap-example/master/assets/devtools-sources.png)
 
+### Find original files via Command-O
+
+
+![search](https://raw.github.com/thlorenz/browserify-sourcemap-example/master/assets/devtools-search.png)
+
 ## Few simple steps I took to build this
 
 1. Install dependencies:
