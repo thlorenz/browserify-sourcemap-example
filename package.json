@@ -1,0 +1,28 @@
+{
+  "name": "browserify-sourcemap-example",
+  "version": "0.0.0",
+  "description": "Shows how browserify source mapping urls work (via separate browserify fork).",
+  "main": "browserify-sourcemap-example.js",
+  "scripts": {
+    "test": "node-trap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/browserify-sourcemap-example.git"
+  },
+  "homepage": "https://github.com/thlorenz/browserify-sourcemap-example",
+  "dependencies": {
+    "browserify": "git://github.com/thlorenz/node-browserify.git#sourcemaps",
+    "express": "~3.1.0"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
