@@ -2,6 +2,10 @@
 
 Shows how browserify source mapping urls work (via separate browserify fork).
 
+## Caveats 
+
+Need a browser that supports sourceMappingURLs (i.e. Chrome {beta,canary}).
+
 ## Give it a try
 
     git clone git://github.com/thlorenz/browserify-sourcemap-example.git && cd browserify-sourcemap-example
