@@ -1,6 +1,7 @@
 # browserify-sourcemap-example
 
-Shows how browserify source mapping urls work (via separate browserify fork).
+Shows how browserify source mapping urls work (via [separate browserify
+fork](https://github.com/thlorenz/node-browserify)).
 
 ## Caveats 
 
